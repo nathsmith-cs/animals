@@ -10,12 +10,14 @@ while [ "$ANIMAL" != "Goodbye" ];do
     echo "Give an animal: "
     read -r ANIMAL
     case $ANIMAL in 
-        "Dog")
+        "DOG")
             echo "domestic animal";;
-        "Cat")
+        "CAT")
             echo "domestic animal";;
-        "Tiger")
+        "TIGER")
             echo "wild animal";;
+        "Goodbye")
+            echo "Goodbye!";;
         *)
             echo "unknown animal";;
     esac

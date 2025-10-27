@@ -1,13 +1,13 @@
 # README for Animals Script
 
 ## Author Information
-- **Name:** [Your Full Name]
-- **Course:** [Course Number and Name]
+- **Name:** Nate Smith
+- **Course:** CPSC-298
 - **Assignment:** Animals Script – Case Statement
-- **Date:** [Date of Completion]
+- **Date:** 27 October 2025
 
 ## Program Description
-[Write 2-3 sentences in your own words describing what this script does and its purpose. Explain how it classifies animals and how the program continues to run until the user types "Goodbye".]
+This program takes user input to decide what animal the user is inputting. The two animals it classifies is domestic animals and wild animals. It also only knows those categories if you input a dog, cat, or tiger.
 
 ## Animal Classification Rules
 This script determines the type of animal according to the following logic:
@@ -28,15 +28,14 @@ To test with an input file (for example, `animals-input`):
 ./animals.sh < animals-input
 ```
 ## How the Script Works
-[Explain in 3-5 sentences how your script works. Include information about:]
+Uses a while loop to give the user multiple answers. It uses a case statement to tell which cases specifically it will reply too. The * gives the default statement and the ANIMALS variable is checked to see if Goodbye is entered at the start.
 - The use of the while loop to keep asking for user input
 - The case statement that checks the animal name
 - The * wildcard pattern that handles unknown inputs
 - How the loop exits when "Goodbye" is entered
 
 ## Testing Results
-[Describe your testing process and results. Include:]
-- Example valid inputs you tested (at least three, including “DOG”, “CAT”, “TIGER”)
+I used the input file to make sure that my case statement were giving the correct type of animal when I input stuff into them.
 - Example invalid inputs and why they produce “unknown animal”
 - How you used the animals-input file to test
 
@@ -44,7 +43,7 @@ To test with an input file (for example, `animals-input`):
 [Optional: Describe any challenges you encountered while creating this script and how you solved them. This could include debugging issues, understanding case statements, or Git workflow problems.]
 
 ## Resources
-[List any resources you used (class slides, ChatGPT, etc.). Please refer to the course syllabus for more details on citations.]
+No other references.
 
 ## License
 This project is part of coursework for Chapman University and is intended for educational purposes.
